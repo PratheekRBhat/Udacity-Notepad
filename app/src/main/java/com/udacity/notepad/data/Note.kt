@@ -2,11 +2,11 @@ package com.udacity.notepad.data
 
 import java.util.*
 
-class Note {
-    var id = -1
-    var text: String? = null
-    var isPinned = false
-    var createdAt = Date()
-    var updatedAt: Date? = null
+data class Note (
+        var id: Int = -1,
+        var text: String? = null,
+        var isPinned: Boolean = false,
+        var createdAt: Date = Date(),
+        var updatedAt: Date? = null
 
-}
+)
