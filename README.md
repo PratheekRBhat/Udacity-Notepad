@@ -1,2 +1,2 @@
 # Udacity-Notepad
-Made using Kotlin
+Made by converting Java files to Kotlin
